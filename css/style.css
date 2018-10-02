@@ -1,0 +1,10 @@
+body{
+	background-color: #2b303a;
+    display: flex;
+}
+.timer{
+    width: 900px;
+    height: 150px;
+    margin:auto;
+    
+}
