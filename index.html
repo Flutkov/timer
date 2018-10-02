@@ -9,7 +9,16 @@
 </head>
 <body>
     <div class="timer">
-	<script src="http://megatimer.ru/s/bf840919128368d8d9c6a5b69b8a39d3.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://e-timer.ru/js/etimer.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery(".eTimer").eTimer({
+			etType: 0, etDate: "23.12.2018.9.0", etTitleText: "Конец истории", etTitleSize: 30, etShowSign: 1, etSep: ":", etFontFamily: "Georgia", etTextColor: "#939393", etPaddingTB: 0, etPaddingLR: 15, etBackground: "#2b303a", etBorderSize: 0, etBorderRadius: 0, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 100, etNumberColor: "red", etNumberPaddingTB: 3, etNumberPaddingLR: 9, etNumberBackground: "transparent", etNumberBorderSize: 0, etNumberBorderRadius: 0, etNumberBorderColor: "transparent", etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
+		});
+	});
+</script>
+<div class="eTimer"></div>
 	</div>
 </body>
 </html>
